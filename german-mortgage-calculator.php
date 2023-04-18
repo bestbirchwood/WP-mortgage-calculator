@@ -65,11 +65,12 @@ function gmc_shortcode() {
     return ob_get_clean();
 }
 // Include the Plugin Update Checker library
-require 'plugin-update-checker-5.0/plugin-update-checker.php';
+require 'plugin-update-checker/plugin-update-checker.php';
+;
 
 // Configure the update checker
-$updateChecker = Puc_v4_Factory::buildUpdateChecker(
-    'https://github.com/bestbirchwood/mortgage-calculator/main/metadata.json',
+$updateChecker = Puc_v4_Factory::buildUpdateChecker(    (
+    'https://github.com/bestbirchwood/wordpress/blob/main/metadata.json',
     __FILE__
 );
 
