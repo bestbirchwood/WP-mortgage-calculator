@@ -68,7 +68,7 @@ function gmc_shortcode() {
 require 'plugin-update-checker/plugin-update-checker.php';
 
 // Configure the update checker
-$updateChecker = Puc_v4_Factory::buildUpdateChecker(
+$updateChecker = Puc_v5_Factory::buildUpdateChecker(
     "https://github.com/bestbirchwood/wordpress/blob/main/metadata.json",
     __FILE__
 );
