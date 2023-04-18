@@ -70,7 +70,7 @@ require 'plugin-update-checker/plugin-update-checker.php';
 
 // Configure the update checker
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(    (
-    'https://github.com/bestbirchwood/wordpress/blob/main/metadata.json',
+    "https://github.com/bestbirchwood/wordpress/blob/main/metadata.json",
     __FILE__
 );
 
