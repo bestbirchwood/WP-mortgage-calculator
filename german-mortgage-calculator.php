@@ -66,7 +66,6 @@ function gmc_shortcode() {
 }
 // Include the Plugin Update Checker library
 require 'plugin-update-checker/plugin-update-checker.php';
-;
 
 // Configure the update checker
 $updateChecker = Puc_v4_Factory::buildUpdateChecker(
