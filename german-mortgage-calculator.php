@@ -68,11 +68,14 @@ function gmc_shortcode() {
 require 'plugin-update-checker/plugin-update-checker.php';
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
-// Configure the update checker
 $myUpdateChecker = PucFactory::buildUpdateChecker(
-    "https://github.com/bestbirchwood/wordpress/blob/main/metadata.json",
-    __FILE__
+	'https://github.com/bestbirchwood/WP-mortgage-calculator',
+	__FILE__,
+	'WP-mortgage-calculator'
 );
+
+//Set the branch that contains the stable release.
+$myUpdateChecker->setBranch('main');
 
 add_shortcode('german_mortgage_calculator', 'gmc_shortcode');
 ?>
