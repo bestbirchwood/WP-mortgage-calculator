@@ -1,12 +1,12 @@
 {
   "name": "German Mortgage Calculator",
   "version": "0.02",
-  "download_url": "https://github.com/bestbirchwood/wordpress/blob/main/german-mortgage-calculator-git.zip",
+  "download_url": "https://github.com/bestbirchwood/WP-mortgage-calculator",
   "sections": {
     "description": "A simple and neat-looking German Mortgage Calculator that calculates the affordable house price based on preferred monthly down payment and other adjustable values.",
     "changelog": "Changelog for version 0.02:\n- Added new automatic update\n- Fixed bug Y\n- Improved performance"
   },
   "requires": "0.02",
   "tested": "0.02",
-  "last_updated": "2023-04-18"
+  "last_updated": "2023-04-21"
 }
